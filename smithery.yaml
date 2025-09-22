@@ -1,0 +1,23 @@
+[![smithery badge](https://smithery.ai/badge/@FerryZhaoHui/leiga-mcp-server-test)](https://smithery.ai/server/@FerryZhaoHui/leiga-mcp-server-test)
+
+### Installing via Smithery
+
+To install Linear Issue Tracker Integration for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@FerryZhaoHui/leiga-mcp-server-test):
+
+```bash
+npx -y @smithery/cli install @FerryZhaoHui/leiga-mcp-server-test --client claude
+```
+
+### Setup
+
+- Create Linear API Key
+  - https://linear.app/dispatch-io/settings/account/security
+- Create a `.env` file in the root directory based on `.env.example` with your Linear API key:
+  ```
+  LEIGA_CLIENT_ID=your leiga open api client id
+  LEIGA_SECRET=your leiga open api secret
+  ```
+- run `npm install`
+- run `npm run build`
+- setup mcp
+  - Exmaple https://modelcontextprotocol.io/quickstart/user
